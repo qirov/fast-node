@@ -9,7 +9,7 @@
 ### Полная настройка ВМ + деплой
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/qirow/fast-node/main/setup.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/qirov/fast-node/main/setup.sh)
 ```
 
 ### Только деплой remnanode (без оптимизации)
