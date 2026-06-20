@@ -9,7 +9,7 @@
 ### Полная настройка ВМ + деплой
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/ibmaga/fast-setting-node/main/node-setup.sh)
+bash <(curl -fsSL https://raw.githubusercontent.com/qirow/fast-node/main/setup.sh)
 ```
 
 ### Только деплой remnanode (без оптимизации)
@@ -17,7 +17,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/ibmaga/fast-setting-node/mai
 Быстро поднять контейнер для теста — пропускает всю оптимизацию, ставит Docker если нет, спрашивает только `NODE_PORT` и `SECRET_KEY`:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/ibmaga/fast-setting-node/main/node-setup.sh) --deploy-only
+bash <(curl -fsSL https://raw.githubusercontent.com/qirov/fast-node/main/setup.sh) --deploy-only
 ```
 
 ### Только применить sysctl (на работающий сервер)
@@ -25,7 +25,7 @@ bash <(curl -fsSL https://raw.githubusercontent.com/ibmaga/fast-setting-node/mai
 Применить kernel-тюнинг без переустановки пакетов и без ребута:
 
 ```bash
-bash <(curl -fsSL https://raw.githubusercontent.com/ibmaga/fast-setting-node/main/node-setup.sh) --apply-only
+bash <(curl -fsSL https://raw.githubusercontent.com/qirov/fast-node/main/setup.sh) --apply-only
 ```
 
 ## 🔀 Режимы работы
